@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BuisnessController.swift
 //  kakaoTaxiClone
 //
 //  Created by 전해동 on 2020/11/25.
@@ -7,13 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class BuisnessController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .green
     }
-
-
 }
-

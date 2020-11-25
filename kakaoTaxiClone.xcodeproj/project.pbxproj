@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		E95E9628256E1796000ADB17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E9627256E1796000ADB17 /* AppDelegate.swift */; };
 		E95E962A256E1796000ADB17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E9629256E1796000ADB17 /* SceneDelegate.swift */; };
-		E95E962C256E1796000ADB17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E962B256E1796000ADB17 /* ViewController.swift */; };
 		E95E962F256E1796000ADB17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95E962D256E1796000ADB17 /* Main.storyboard */; };
 		E95E9631256E1799000ADB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95E9630256E1799000ADB17 /* Assets.xcassets */; };
 		E95E9634256E1799000ADB17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95E9632256E1799000ADB17 /* LaunchScreen.storyboard */; };
+		E95E9640256E17EE000ADB17 /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E963F256E17EE000ADB17 /* LaunchController.swift */; };
+		E95E9644256E19AF000ADB17 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E9643256E19AF000ADB17 /* ColorExtension.swift */; };
+		E95E964A256E1AA6000ADB17 /* HelperForLaunchBasicUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E9649256E1AA6000ADB17 /* HelperForLaunchBasicUI.swift */; };
+		E95E964E256E1AC2000ADB17 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E964D256E1AC2000ADB17 /* MainController.swift */; };
+		E95E9651256E1AF8000ADB17 /* HelperForLaunchNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E9650256E1AF8000ADB17 /* HelperForLaunchNav.swift */; };
+		E95E9655256E1C4D000ADB17 /* MainHelperForBasicUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E9654256E1C4D000ADB17 /* MainHelperForBasicUI.swift */; };
+		E95E9659256E1CCA000ADB17 /* MainHelperForTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E9658256E1CCA000ADB17 /* MainHelperForTabs.swift */; };
+		E95E9660256E1D3C000ADB17 /* MyPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E965F256E1D3C000ADB17 /* MyPageController.swift */; };
+		E95E9664256E1D59000ADB17 /* UsingServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E9663256E1D59000ADB17 /* UsingServiceController.swift */; };
+		E95E966C256E1DAB000ADB17 /* BuisnessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E966B256E1DAB000ADB17 /* BuisnessController.swift */; };
+		E95E966F256E1DC7000ADB17 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E966E256E1DC7000ADB17 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E95E9624256E1796000ADB17 /* kakaoTaxiClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kakaoTaxiClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95E9627256E1796000ADB17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E95E9629256E1796000ADB17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E95E962B256E1796000ADB17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E95E962E256E1796000ADB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E95E9630256E1799000ADB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E95E9633256E1799000ADB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95E9635256E1799000ADB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95E963F256E17EE000ADB17 /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
+		E95E9643256E19AF000ADB17 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E95E9649256E1AA6000ADB17 /* HelperForLaunchBasicUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperForLaunchBasicUI.swift; sourceTree = "<group>"; };
+		E95E964D256E1AC2000ADB17 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		E95E9650256E1AF8000ADB17 /* HelperForLaunchNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperForLaunchNav.swift; sourceTree = "<group>"; };
+		E95E9654256E1C4D000ADB17 /* MainHelperForBasicUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHelperForBasicUI.swift; sourceTree = "<group>"; };
+		E95E9658256E1CCA000ADB17 /* MainHelperForTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHelperForTabs.swift; sourceTree = "<group>"; };
+		E95E965F256E1D3C000ADB17 /* MyPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageController.swift; sourceTree = "<group>"; };
+		E95E9663256E1D59000ADB17 /* UsingServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingServiceController.swift; sourceTree = "<group>"; };
+		E95E966B256E1DAB000ADB17 /* BuisnessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuisnessController.swift; sourceTree = "<group>"; };
+		E95E966E256E1DC7000ADB17 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,105 @@
 		E95E9626256E1796000ADB17 /* kakaoTaxiClone */ = {
 			isa = PBXGroup;
 			children = (
+				E95E9642256E19A3000ADB17 /* Util */,
+				E95E963D256E17D3000ADB17 /* Controllers */,
 				E95E9627256E1796000ADB17 /* AppDelegate.swift */,
 				E95E9629256E1796000ADB17 /* SceneDelegate.swift */,
-				E95E962B256E1796000ADB17 /* ViewController.swift */,
 				E95E962D256E1796000ADB17 /* Main.storyboard */,
 				E95E9630256E1799000ADB17 /* Assets.xcassets */,
 				E95E9632256E1799000ADB17 /* LaunchScreen.storyboard */,
 				E95E9635256E1799000ADB17 /* Info.plist */,
 			);
 			path = kakaoTaxiClone;
+			sourceTree = "<group>";
+		};
+		E95E963D256E17D3000ADB17 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E95E965E256E1D2A000ADB17 /* MyPageController */,
+				E95E965D256E1D1C000ADB17 /* UsingServiceController */,
+				E95E965C256E1D10000ADB17 /* BuisnessController */,
+				E95E965B256E1D0A000ADB17 /* HomeController */,
+				E95E9647256E1A83000ADB17 /* MainController */,
+				E95E963E256E17E1000ADB17 /* LaunchController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E95E963E256E17E1000ADB17 /* LaunchController */ = {
+			isa = PBXGroup;
+			children = (
+				E95E9648256E1A91000ADB17 /* HelperForLaunch */,
+				E95E963F256E17EE000ADB17 /* LaunchController.swift */,
+			);
+			path = LaunchController;
+			sourceTree = "<group>";
+		};
+		E95E9642256E19A3000ADB17 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E95E9643256E19AF000ADB17 /* ColorExtension.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E95E9647256E1A83000ADB17 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				E95E9653256E1C41000ADB17 /* Helper */,
+				E95E964D256E1AC2000ADB17 /* MainController.swift */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		E95E9648256E1A91000ADB17 /* HelperForLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				E95E9649256E1AA6000ADB17 /* HelperForLaunchBasicUI.swift */,
+				E95E9650256E1AF8000ADB17 /* HelperForLaunchNav.swift */,
+			);
+			path = HelperForLaunch;
+			sourceTree = "<group>";
+		};
+		E95E9653256E1C41000ADB17 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E95E9654256E1C4D000ADB17 /* MainHelperForBasicUI.swift */,
+				E95E9658256E1CCA000ADB17 /* MainHelperForTabs.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E95E965B256E1D0A000ADB17 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				E95E966E256E1DC7000ADB17 /* HomeController.swift */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		E95E965C256E1D10000ADB17 /* BuisnessController */ = {
+			isa = PBXGroup;
+			children = (
+				E95E966B256E1DAB000ADB17 /* BuisnessController.swift */,
+			);
+			path = BuisnessController;
+			sourceTree = "<group>";
+		};
+		E95E965D256E1D1C000ADB17 /* UsingServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				E95E9663256E1D59000ADB17 /* UsingServiceController.swift */,
+			);
+			path = UsingServiceController;
+			sourceTree = "<group>";
+		};
+		E95E965E256E1D2A000ADB17 /* MyPageController */ = {
+			isa = PBXGroup;
+			children = (
+				E95E965F256E1D3C000ADB17 /* MyPageController.swift */,
+			);
+			path = MyPageController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +247,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E95E962C256E1796000ADB17 /* ViewController.swift in Sources */,
 				E95E9628256E1796000ADB17 /* AppDelegate.swift in Sources */,
+				E95E9655256E1C4D000ADB17 /* MainHelperForBasicUI.swift in Sources */,
+				E95E9651256E1AF8000ADB17 /* HelperForLaunchNav.swift in Sources */,
+				E95E964A256E1AA6000ADB17 /* HelperForLaunchBasicUI.swift in Sources */,
+				E95E9660256E1D3C000ADB17 /* MyPageController.swift in Sources */,
+				E95E9659256E1CCA000ADB17 /* MainHelperForTabs.swift in Sources */,
+				E95E966F256E1DC7000ADB17 /* HomeController.swift in Sources */,
+				E95E9664256E1D59000ADB17 /* UsingServiceController.swift in Sources */,
+				E95E966C256E1DAB000ADB17 /* BuisnessController.swift in Sources */,
+				E95E9640256E17EE000ADB17 /* LaunchController.swift in Sources */,
 				E95E962A256E1796000ADB17 /* SceneDelegate.swift in Sources */,
+				E95E964E256E1AC2000ADB17 /* MainController.swift in Sources */,
+				E95E9644256E19AF000ADB17 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
